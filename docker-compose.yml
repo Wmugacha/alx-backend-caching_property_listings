@@ -1,5 +1,4 @@
 name: property_listings 
-version: '3.9'
 
 services:
   web:
@@ -31,13 +30,16 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
     volumes:
-      - pgdata:/var/lib/postgresql/data
+      - postgres_data:/var/lib/postgresql/data
 
   redis:
     image: redis:latest
     restart: always
     ports:
       - "6379:6379"
+    volumes:
+      - redis_data:/data
 
 volumes:
-  pgdata:
+  postgres_data:
+  redis_data:

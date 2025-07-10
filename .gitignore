@@ -30,14 +30,6 @@ staticfiles/
 # VS Code
 .vscode/
 
-# Docker
-*.pid
-Dockerfile.*
-docker-compose*.yml
-__docker_cache__/
-*.tar
-*.bak
-
 # System
 .DS_Store
 Thumbs.db

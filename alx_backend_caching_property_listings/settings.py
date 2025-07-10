@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 
     'properties',
     'django_redis',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [

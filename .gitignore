@@ -27,13 +27,6 @@ local_settings.py
 media/
 staticfiles/
 
-# Migrations (optional: include if you generate them fresh per env)
-*/migrations/__pycache__/
-*/migrations/*.pyc
-*/migrations/*.pyo
-*/migrations/*.log
-*/migrations/*.sqlite3
-
 # VS Code
 .vscode/
 
